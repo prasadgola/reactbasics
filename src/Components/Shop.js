@@ -16,11 +16,11 @@ function Shop() {
 
 	return (
 		<div>
-			<h1>asdf</h1>
+			<h1>Shop</h1>
 			{items.map((item) => {
 				return (
 					<pre key={item.id}>
-						<Link to ={`shop/${ item.id }`}>{item.title}</Link>
+						<Link to ={`shop/${ item.id }`}>{item.title}</Link>{/*input to 'to' attribute is dynamic*/}
 					</pre>
 				)
 			})}

@@ -1,3 +1,5 @@
+// this file and index.css is javascript file for html file-index.html in public folder
+// implement redux here
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
